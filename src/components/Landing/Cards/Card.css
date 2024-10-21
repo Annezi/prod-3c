@@ -1,0 +1,30 @@
+.infoCard {
+	background-color: var(--light-gray-color);
+	color: var(--black-color);
+	width: 336px;
+	height: 448px;
+	border-radius: 21px;
+	display: flex;
+	flex-direction: column;
+	transition: 0.4s;
+}
+
+.infoCard:hover {
+	background-color: var(--dark-gray-color);
+	color: var(--white-color);
+	cursor: pointer;
+}
+
+.infoCard-head {
+	margin-top: 41px;
+	margin-left: 33px;
+}
+
+.infoCard-img {
+	height: 166px;
+	width: 100%;
+}
+
+.infoCard-description {
+	margin-left: 33px;
+}

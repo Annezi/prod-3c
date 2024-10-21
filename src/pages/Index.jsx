@@ -1,10 +1,12 @@
-import Navigation from "../components/Navigation/Navbar";
+import Info from "../components/Landing/Screen_1/Info";
+import About from "../components/Landing/Screen_2/About";
+import './Index.css'
 
 export default function Index() {
-  return (
-    <div>
-      <Navigation />
-      <h1>Index</h1>
-    </div>
-  );
+	return (
+		<div className="LandingBox">
+			<Info />
+			<About />
+		</div>
+	);
 }

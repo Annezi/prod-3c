@@ -1,0 +1,30 @@
+.mainBanner {
+	background-image: url(/public/Landing/Info_1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1396px;
+	height: 935px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.japanTexts {
+	width: 1278px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.michi-logo {
+	margin-top: 476px;
+}
+
+.bottom-navigation {
+	margin-top: 48px;
+	width: 1278px;
+	display: flex;
+	justify-content: space-between;
+}

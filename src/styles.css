@@ -1,10 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@font-face {
+	font-family: 'KOT-Eitai Gothic';
+	src: url('./fonts/KOT-Eitai_Gothic.otf') format('otf'),
+		url('./fonts/KOT-Eitai_Gothic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: bold;
+}
+
+:root {
+	--black-color: #000;
+	--white-color: #fff;
+	--dark-gray-color: #1E1E1E;
+	--gray-color: #888888;
+	--light-gray-color: #F3F3F3;
+	--red-color: #C61C1C;
+}
+
+.text-title-l {
+	color: var(--black-color);
+	font-family: KOT-Eitai Gothic;
+	font-size: 79px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-title-l-accent {
+	color: var(--red-color);
+	font-family: KOT-Eitai Gothic;
+	font-size: 79px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-title-m {
+	color: var(--black-color);
+	font-family: KOT-Eitai Gothic;
+	font-size: 36px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-title-s {
+	font-family: KOT-Eitai Gothic;
+	font-size: 16px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-subtitle-l {
+	color: var(--black-color);
+	font-family: KOT-Eitai Gothic;
+	font-size: 32px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-subtitle-l-accent {
+	color: var(--white-color);
+	font-family: KOT-Eitai Gothic;
+	font-size: 32px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-subtitle-m {
+	font-family: KOT-Eitai Gothic;
+	font-size: 24px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-subtitle-s {
+	color: var(--black-color);
+	font-family: KOT-Eitai Gothic;
+	font-size: 20px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-paragraph-l {
+	color: var(--black-color);
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-paragraph-m {
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-paragraph-s {
+	color: var(--black-color);
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Roboto", sans-serif;
 }
 
 a {

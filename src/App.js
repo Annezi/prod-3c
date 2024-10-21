@@ -1,9 +1,7 @@
 import "./styles.css";
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
+  RouterProvider
 } from "react-router-dom";
 import Index from "./pages/Index";
 import About from "./pages/About";

@@ -1,0 +1,11 @@
+.LandingBox {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 33px;
+}
+
+.LandingBox > *:not(:last-child) {
+    margin-bottom: 140px; 
+} 
