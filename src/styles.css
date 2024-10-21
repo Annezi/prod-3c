@@ -88,7 +88,6 @@
 }
 
 .text-subtitle-s {
-	color: var(--black-color);
 	font-family: KOT-Eitai Gothic;
 	font-size: 20px;
 	font-style: bold;
@@ -130,4 +129,8 @@
 
 a {
 	text-decoration: none;
+}
+
+.shadow {
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 24px 0px rgba(0, 0, 0, 0.08);;
 }

@@ -1,5 +1,7 @@
 import './About.css';
-import Card from "..//Cards/Card";
+import Card from "..//Mol_Cards/Card";
+import cardsDB from "../../../database/cardsData.json";
+const cardsList = cardsDB.data;
 
 export default function About() {
 	return (
@@ -19,10 +21,11 @@ export default function About() {
 					Простой взгляд на Японию изнутри. Подойдёт для тех, кто хочет узнать что‑то новое или узнать о стране восходящего солнца без прикрас
 				</div>
 				<div className="about-stacks">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+					{
+						cardsList.map(( element, index ) => 
+							<Card {...element} index={index} key={element.id} />
+						)
+					}
 				</div>
 			</div>
 		</div>

@@ -1,5 +1,6 @@
-import Info from "../components/Landing/Screen_1/Info";
-import About from "../components/Landing/Screen_2/About";
+import Info from "../components/Landing/Lan_Info/Info";
+import About from "../components/Landing/Lan_About/About";
+import Sections from "../components/Landing/Lan_Category/Category";
 import './Index.css'
 
 export default function Index() {
@@ -7,6 +8,7 @@ export default function Index() {
 		<div className="LandingBox">
 			<Info />
 			<About />
+			<Sections />
 		</div>
 	);
 }
