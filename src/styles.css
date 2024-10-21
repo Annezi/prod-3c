@@ -52,6 +52,15 @@
 	line-height: normal;
 }
 
+.text-title-s-accent {
+	color: var(--white-color);
+	font-family: KOT-Eitai Gothic;
+	font-size: 16px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
 .text-subtitle-l {
 	color: var(--black-color);
 	font-family: KOT-Eitai Gothic;
