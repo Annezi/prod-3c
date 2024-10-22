@@ -28,3 +28,17 @@
 .section-arrow {
 	margin-right: 38px;
 }
+
+.section-img,
+.section-description {
+    transition: opacity 0.4s ease-in-out;
+}
+
+.section-img.animate,
+.section-description.animate {
+    opacity: 0;
+}
+
+.section-arrow {
+    cursor: pointer;
+}

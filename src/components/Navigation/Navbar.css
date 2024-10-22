@@ -9,12 +9,6 @@
 	align-items: center;
 }
 
-.logo {
-	font-size: 32px;
-	color: white;
-	font-weight: 700;
-}
-
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -22,9 +16,6 @@
 }
 
 .nav-links {
-	font-size: 18px;
-	color: white;
-	font-weight: 500;
 	margin-left: 40px;
 }
 
