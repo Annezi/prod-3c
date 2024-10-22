@@ -1,0 +1,13 @@
+.subscribtion-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.sub-info-left {
+	width: 482px;
+	margin-right: 160px;
+}
+
+.sub-info-right {
+
+}
