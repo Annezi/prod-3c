@@ -3,7 +3,7 @@ export default function Popup({ onClose }) {
 		<div className="modal">
 		<div className="modalLink-content">
 			<div className="modalClose" onClick={onClose}>
-				<img src="/public/Icons/Cross.svg" alt="Close" />
+				<img src="./Icons/Cross.svg" alt="Close" />
 			</div>
 			<div className="modalLink-info">
 				<div className="modalLink-text">

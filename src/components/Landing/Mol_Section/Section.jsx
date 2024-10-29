@@ -9,7 +9,7 @@ export default function Section({ img, description, isAnimating, onNext }) {
 			<div className={`section-description ${isAnimating ? 'animate' : ''}`}>
 				<div className="section-text text-paragraph-m">{description}</div>
 				<div className="section-arrow" onClick={onNext}>
-					<img src="/public/Landing/Section_arrow.svg" alt="arrow" />
+					<img src="./Landing/Section_arrow.svg" alt="arrow" />
 				</div>
 			</div>
 		</div>

@@ -18,7 +18,7 @@ export default function Posters() {
 				<PostCard
 					title="ХРАМЫ И РЕЛИГИЯ. ВО ЧТО ВЕРЯТ СОВРЕМЕННЫЕ ЯПОНЦЫ"
 					description="Как японцы внедрили свою культуру в вероисповедание и кто их современные божества"
-					image="/public/Landing/Post_L.png"
+					image="./Landing/Post_L.png"
 					size="large"
 					wide="large"
 				/>
@@ -29,7 +29,7 @@ export default function Posters() {
 						<PostCard
 							title="МММ ЯПОНСКАЯ ЕДА! ОЙ!"
 							description="Отвечаем на вопросы, почему вы будете не в восторге от настоящей японской еды"
-							image="/public/Landing/Post_S1.png"
+							image="./Landing/Post_S1.png"
 							size="small"
 							wide="small"
 						/>
@@ -38,7 +38,7 @@ export default function Posters() {
 						<PostCard
 							title="КОШКИ НЕКО"
 							description="Как милые котики стали частью культуры и жизни каждого японца"
-							image="/public/Landing/Post_M.png"
+							image="./Landing/Post_M.png"
 							size="medium"
 							wide="medium"
 						/>
@@ -49,7 +49,7 @@ export default function Posters() {
 						<PostCard
 							title="КАРПЫ КОИ И ГДЕ ИХ НАЙТИ"
 							description="Нашли 12 мест, где вы сможете познакомится с прелестными карпами Кои не только в Японии"
-							image="/public/Landing/Post_S2.png"
+							image="./Landing/Post_S2.png"
 							size="small"
 							wide="small"
 						/>

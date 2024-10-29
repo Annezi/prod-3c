@@ -45,7 +45,7 @@ export default function Navigation() {
 
 			<div className="profile">
 				<Link to="/profile">
-					<img src="/public/profile_photo.jpg" alt="avatar" />
+					<img src="./profile_photo.jpg" alt="avatar" />
 				</Link>
 			</div>
 			

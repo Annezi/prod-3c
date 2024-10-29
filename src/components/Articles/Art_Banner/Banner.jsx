@@ -1,6 +1,6 @@
 import './Banner.css'
 import Tag from "../../UI/Tags/Tag"
-import Breadcrumbs from "../../UI/Breadcrumbs/Breacrumds"
+import Breadcrumbs from "../../UI/Breadcrumbs/Breadcrumbs"
 
 export default function Banner() {
 	const breadcrumbItems = [

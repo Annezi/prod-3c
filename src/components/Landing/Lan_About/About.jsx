@@ -13,7 +13,7 @@ export default function About() {
 						<div className="firstHead-row-right text-title-l-accent">ЯПОНСКОЙ</div>
 					</div>
 					<div className="secondHead-row text-title-l">
-						<div className="secondHead-row-left"><img src="/public/Landing/About_1.png" alt="swapper" /></div>
+						<div className="secondHead-row-left"><img src="./Landing/About_1.png" alt="swapper" /></div>
 						<div className="secondHead-row-right">КУЛЬТУРЕ</div>
 					</div>
 				</div>

@@ -9,17 +9,17 @@ export default function ReadMore() {
 				<ArticlesPreview
 					title="Японское рождество"
 					description="Какие подарки дарят японцы и где можно отметить праздник"
-					backgroundImage="/public/Articles/articles_preview-1.jpg"
+					backgroundImage="./Articles/articles_preview-1.jpg"
 				/>
 				<ArticlesPreview
 					title="Новый год в японском стиле"
 					description="Походы в храм первого января и новогодние предсказания"
-					backgroundImage="/public/Articles/articles_preview-2.jpg"
+					backgroundImage="./Articles/articles_preview-2.jpg"
 				/>
 				<ArticlesPreview
 					title="Пасха в Японии"
 					description="Существует ли японский пасхальный кролик и как украсить свой дом"
-					backgroundImage="/public/Articles/articles_preview-3.jpg"
+					backgroundImage="./Articles/articles_preview-3.jpg"
 				/>
 			</div>
 		</div>

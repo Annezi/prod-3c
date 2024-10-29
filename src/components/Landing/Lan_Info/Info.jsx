@@ -11,7 +11,7 @@ export default function Info() {
 					<div className="japanText text-title-s-accent">うがつ</div>
 				</div>
 				<div className="michi-logo">
-					<img src="/public/Landing/logo_L.svg" alt="logo" />
+					<img src="./Landing/logo_L.svg" alt="logo" />
 				</div>
 				<div className="bottom-navigation">
 					<div className="left-navigation text-subtitle-l-accent">みち - медиа о настоящей японии</div>
