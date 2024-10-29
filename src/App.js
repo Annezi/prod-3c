@@ -1,6 +1,6 @@
 import "./styles.css";
 import {
-	createBrowserRouter,
+	createHashRouter,
 	RouterProvider
 } from "react-router-dom";
 import Index from "./pages/Index";
@@ -11,7 +11,7 @@ import Travelling from "./pages/Travelling";
 import WhereToGo from "./pages/WhereToGo";
 import Profile from "./pages/Profile";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 	{
 		path: "/",
 		element: <Index />,
