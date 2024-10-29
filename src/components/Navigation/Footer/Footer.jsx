@@ -12,7 +12,7 @@ export default function Footer(){
 		<div className="footer-container">
 			<div className="text-subtitle-l-accent">МИЧИ</div>
 			<div className="toTop" onClick={scrollToTop}>
-				<img src="/Icons/Arrow.svg" alt="To Top" />
+				<img src="/public/Icons/Arrow.svg" alt="To Top" />
 			</div>
 		</div>
 	)

@@ -23,15 +23,15 @@ export default function Essay() {
 				<div className="text-container">
 					<div className="text-title-m">В Японии компании любят на 1 апреля анонсировать какие‑нибудь дурацкие товары</div>
 					<div className="img-container">
-						<img src="/Articles/Essay_img1.jpg" alt="" />
+						<img src="/public/Articles/Essay_img1.jpg" alt="" />
 						<div className="img-description text-paragraph-s">Сеть комбини FamilyMart в 2022 году объявили о выпуске в продажу с 1 апреля фраппе со вкусом жареной курочки</div>
 					</div>
 					<div className="img-container">
-						<img src="/Articles/Essay_img2.jpg" alt="" />
+						<img src="/public/Articles/Essay_img2.jpg" alt="" />
 						<div className="img-description text-paragraph-s">В 2019 году японское подразделение KFC объявило о запуске продаж вёдер с куриными косточками</div>
 					</div>
 					<div className="img-container">
-						<img src="/Articles/Essay_img3.jpg" alt="" />
+						<img src="/public/Articles/Essay_img3.jpg" alt="" />
 						<div className="img-description text-paragraph-s">В 2018 году на 1 апреля Fanta в Японии анонсировала запуск напитка со вкусом болгарского перца</div>
 					</div>
 				</div>

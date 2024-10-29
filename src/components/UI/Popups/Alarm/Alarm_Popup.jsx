@@ -1,11 +1,9 @@
-import "./Alarm_Popup.css"
-
 export default function Popup({ onClose }) {
 	return (
 		<div className="modal">
 		<div className="modalLink-content">
 			<div className="modalClose" onClick={onClose}>
-				<img src="/Icons/Cross.svg" alt="Close" />
+				<img src="/public/Icons/Cross.svg" alt="Close" />
 			</div>
 			<div className="modalLink-info">
 				<div className="modalLink-text">
