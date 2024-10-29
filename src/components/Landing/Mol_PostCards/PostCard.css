@@ -1,18 +1,18 @@
 .post-card {
-    border-radius: 20px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: transform 0.3s ease;
 	cursor: pointer;
 	background-color: var(--white-color);
 }
 
 .post-card:hover {
-    transform: translateY(-5px);
+	transform: translateY(-5px);
 }
 
 .post-card-image {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .post-card-content-small {
@@ -49,16 +49,16 @@
 
 /* Размеры карточек */
 .post-card-small {
-    width: 355px;
+	width: 355px;
 	height: 289px;
 }
 
 .post-card-medium {
-    width: 407px;
+	width: 407px;
 	height: 335px;
 }
 
 .post-card-large {
-    width: 476px;
+	width: 476px;
 	height: 400px;
 }

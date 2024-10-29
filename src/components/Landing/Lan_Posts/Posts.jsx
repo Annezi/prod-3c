@@ -10,8 +10,8 @@ export default function Posters() {
 					<div className="pfl-links">
 						<div className='links-text text-title-s'>ЧИТАЙ ТУТ</div>
 						<div className='links-logo'>
-							<a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><img className='logo' src="/Landing/tg_logo.svg" alt="tg" /></a>
-							<a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><img className='logo' src="/Landing/tt_logo.svg" alt="tt" /></a>
+							<a href="https://t.me/michi_jp" target="_blank" rel="noreferrer"><img className='posts-logo' src="/Landing/tg_logo.svg" alt="tg" /></a>
+							<a href="https://www.tiktok.com" target="_blank" rel="noreferrer"><img className='posts-logo' src="/Landing/tt_logo.svg" alt="tt" /></a>
 						</div>
 					</div>
 				</div>

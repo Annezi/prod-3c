@@ -1,0 +1,63 @@
+.banner-container {
+	width: 1396px;
+	height: 600px;
+	background-image: url(/public/Articles/articles_cover.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+.ban-infoSub {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.ban-readTime {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 6px;
+}
+
+.readTime-title {
+	color: var(--white-color);
+}
+
+.readTime-time {
+	color: var(--white-color);
+}
+
+.ban-infoMain {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.infoMain-ArticleInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.ArticleInfo-tags {
+	display: flex;
+	flex-direction: row;
+}
+
+.ArticleInfo-title {
+	color: var(--white-color);
+}
+
+.ArticleInfo-description {
+	color: var(--white-color);
+}
+
+.infoMain-publushDate {
+	color: var(--light-gray-color);
+	opacity: 0.6;
+}

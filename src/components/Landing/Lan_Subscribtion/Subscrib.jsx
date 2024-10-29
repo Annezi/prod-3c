@@ -1,5 +1,6 @@
 import './Subscrib.css'
-import Button from "../../UI/Button"
+import Button from "../../UI/Sub_Button/Sub_Button"
+import SubForm from '../../UI/Sub_Form/Sub_Form'
 
 export default function Subscrib() {
 	return (
@@ -8,7 +9,7 @@ export default function Subscrib() {
 				Подпишитесь на наши обновления, чтобы не пропустить интересные новости!
 			</div>
 			<div className="sub-info-right">
-				
+				<SubForm />
 				<Button />
 			</div>
 		</div>

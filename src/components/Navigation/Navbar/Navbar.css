@@ -1,0 +1,35 @@
+.header {
+	width: 1396px;
+	height: 62px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.navbar {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 0px;
+	border-radius: 20px;
+}
+
+.nav-links {
+	margin-left: 32px;
+	transition: transform 0.3s ease;
+}
+
+.nav-links:last-child {
+	margin-right: 32px;
+}
+
+.nav-links:hover {
+	transform: scale(1.1);
+}
+
+a,
+a:visited {
+	color: var(--black-color);
+}

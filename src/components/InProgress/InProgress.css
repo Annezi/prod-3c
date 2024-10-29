@@ -1,0 +1,13 @@
+.inProgress-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inProgress-text {
+	width: 304px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	color: var(--black-color);
+}

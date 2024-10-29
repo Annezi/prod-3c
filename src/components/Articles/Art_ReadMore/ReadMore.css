@@ -1,0 +1,12 @@
+.readMore-container {
+	width: 1396px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.readMore_preview-grid {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

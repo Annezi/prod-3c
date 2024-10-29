@@ -1,11 +1,11 @@
-import './About.css';
+import './About.css'
 import Card from "..//Mol_Cards/Card";
 import cardsDB from "../../../database/cardsData.json";
 const cardsList = cardsDB.data;
 
 export default function About() {
 	return (
-		<div className='about-container'>
+		<div className="about-container">
 			<div className="aboutScreen">
 				<div className="about-head">
 					<div className="firstHead-row text-title-l">
@@ -22,7 +22,7 @@ export default function About() {
 				</div>
 				<div className="about-stacks">
 					{
-						cardsList.map(( element, index ) => 
+						cardsList.map((element, index) =>
 							<Card {...element} index={index} key={element.id} />
 						)
 					}

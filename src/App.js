@@ -1,36 +1,51 @@
 import "./styles.css";
 import {
-  createBrowserRouter,
-  RouterProvider
+	createBrowserRouter,
+	RouterProvider
 } from "react-router-dom";
 import Index from "./pages/Index";
 import About from "./pages/About";
-import Features from "./pages/Features";
-import Contacts from "./pages/Contacts";
+import Articles from "./pages/Articles";
+import Study from "./pages/Study";
+import Travelling from "./pages/Travelling";
+import WhereToGo from "./pages/WhereToGo";
+import Profile from "./pages/Profile";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Index />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/features",
-    element: <Features />,
-  },
-  {
-    path: "/contacts",
-    element: <Contacts />,
-  },
+	{
+		path: "/",
+		element: <Index />,
+	},
+	{
+		path: "/about",
+		element: <About />,
+	},
+	{
+		path: "/articles",
+		element: <Articles />,
+	},
+	{
+		path: "/study",
+		element: <Study />,
+	},
+	{
+		path: "/travelling",
+		element: <Travelling />,
+	},
+	{
+		path: "/where-to-go",
+		element: <WhereToGo />,
+	},
+	{
+		path: "/profile",
+		element: <Profile />,
+	},
 ]);
 
 export default function App() {
-  return (
-    <div className="App">
-      <RouterProvider router={router} />
-    </div>
-  );
+	return (
+		<div className="App">
+			<RouterProvider router={router} />
+		</div>
+	);
 }

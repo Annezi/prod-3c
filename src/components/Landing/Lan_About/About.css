@@ -45,6 +45,6 @@
 	display: flex;
 }
 
-.about-stacks > *:not(:last-child) {
-    margin-right: 17px;
-} 
+.about-stacks>*:not(:last-child) {
+	margin-right: 17px;
+}

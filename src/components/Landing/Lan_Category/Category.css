@@ -5,6 +5,7 @@
 	justify-content: space-between;
 	flex-direction: row;
 }
+
 .category-info {
 	height: 597px;
 	display: flex;

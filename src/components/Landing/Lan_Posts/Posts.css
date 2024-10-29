@@ -2,9 +2,9 @@
 	width: 1326px;
 	height: auto;
 	background-image: url(/public/Landing/Post_BG.png);
-	background-size:  790px 396px;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-size: 790px 396px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .posters-first-line {
@@ -44,12 +44,12 @@
 	cursor: pointer;
 }
 
-.logo {
-    transition: transform 0.3s ease;
+.posts-logo {
+	transition: transform 0.3s ease;
 }
 
-.logo:hover {
-    transform: scale(1.1);
+.posts-logo:hover {
+	transform: scale(1.1);
 }
 
 .poster-second-line {
