@@ -6,7 +6,6 @@ export default function Articles() {
 		<div className="ContainerBox">
 			<Header />
 			<InProgress />
-			ggg
 		</div>
 	);
 }
