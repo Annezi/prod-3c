@@ -25,6 +25,11 @@ export default function SocialMadiaLinks() {
 		const vkShareUrl = `https://vk.com/share.php?url=${url}&title=${title}`;
 		window.open(vkShareUrl, '_blank');
 	};
+
+	
+    const handleTgClick = () => {
+        window.open('https://t.me/michi_jp', '_blank');
+    };
 	
 	useEffect(() => {
 		if (showModal) {
@@ -42,7 +47,7 @@ export default function SocialMadiaLinks() {
 			<div className="share-button" onClick={handleVKClick}>
 				<img src="./Icons/Icon-vk.svg" alt="VK" />
 			</div>
-			<div className="share-button">
+			<div className="share-button" onClick={handleTgClick}>
 				<img src="./Icons/Icon-tg.svg" alt="Telegram" />
 			</div>
 
