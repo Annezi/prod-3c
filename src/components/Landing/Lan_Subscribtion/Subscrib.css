@@ -1,6 +1,7 @@
 .subscribtion-container {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 
 .sub-info-left {
