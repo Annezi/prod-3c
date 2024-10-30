@@ -7,18 +7,18 @@ export default function Subscrib() {
 	const [isSubscribed, setIsSubscribed] = useState(false);
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
-  
+
 	const handleSubscribe = () => {
-	  setIsSubscribed(true);
-	  console.log('Подписка:', { name, email });
-	  setName('');
-	  setEmail('');
+		setIsSubscribed(true);
+		console.log('Подписка:', { name, email });
+		setName('');
+		setEmail('');
 	};
 
 	return (
 		<div className="subscribtion-container">
 			<div className="sub-info-left text-title-m">
-				Подпишитесь на наши обновления, чтобы не пропустить интересные новости!
+				Не пропусти запуск медиа о настоящей Японии!
 			</div>
 			<div className="sub-info-right">
 				<SubForm name={name} email={email} setName={setName} setEmail={setEmail} />
