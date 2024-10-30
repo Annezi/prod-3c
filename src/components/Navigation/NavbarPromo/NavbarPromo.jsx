@@ -12,7 +12,7 @@ export default function PromoNavigation() {
 					<Link to="/promo">Промо</Link>
 				</div>
 				<div className="nav-links-promo text-subtitle-s">
-					<a href="https://t.me/michi_jp">Связаться с нами</a>
+					<Link to="/articles">Узнать больше</Link>
 				</div>
 			</div>
 		</div>
