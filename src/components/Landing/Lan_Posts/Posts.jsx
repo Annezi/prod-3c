@@ -1,4 +1,6 @@
-import './Posts.css'
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from 'react';
+import './Posts.css';
 import PostCard from '../Mol_PostCards/PostCard';
 
 export default function Posters() {
@@ -11,7 +13,7 @@ export default function Posters() {
 						<div className='links-text text-title-s'>ЧИТАЙ ТУТ</div>
 						<div className='links-logo'>
 							<a href="https://t.me/michi_jp" target="_blank" rel="noreferrer"><img className='posts-logo' src="./Landing/tg_logo.svg" alt="tg" /></a>
-							<a href="https://www.tiktok.com" target="_blank" rel="noreferrer"><img className='posts-logo' src="./Landing/tt_logo.svg" alt="tt" /></a>
+							<Link to="/articles"><img className='posts-logo' src="./Landing/tt_logo.svg" alt="tt" /></Link>
 						</div>
 					</div>
 				</div>

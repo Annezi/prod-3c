@@ -4,7 +4,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 1396px;
-	height: 935px;
+	height: 700px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -19,7 +19,7 @@
 }
 
 .michi-logo {
-	margin-top: 476px;
+	margin-top: 237px;
 }
 
 .bottom-navigation {

@@ -4,6 +4,7 @@ import {
 	RouterProvider
 } from "react-router-dom";
 import Index from "./pages/Index";
+import Promo from "./pages/Promo";
 import About from "./pages/About";
 import Articles from "./pages/Articles";
 import Study from "./pages/Study";
@@ -15,6 +16,10 @@ const router = createHashRouter([
 	{
 		path: "/",
 		element: <Index />,
+	},
+	{
+		path: "/promo",
+		element: <Promo />,
 	},
 	{
 		path: "/about",
