@@ -18,7 +18,7 @@ export default function Subscrib() {
 	return (
 		<div className="subscribtion-container">
 			<div className="sub-info-left text-title-m">
-				Не пропусти запуск медиа о настоящей Японии!
+				Не пропусти запуск медиаcервиса о настоящей Японии!
 			</div>
 			<div className="sub-info-right">
 				<SubForm name={name} email={email} setName={setName} setEmail={setEmail} />
