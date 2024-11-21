@@ -50,10 +50,10 @@ const router = createHashRouter([
 
 export default function App() {
 	return (
-		<HelmetProvider>
-			<div className="App">
+		<div className="App">
+			<HelmetProvider>
 				<RouterProvider router={router} />
-			</div>
-		</HelmetProvider>
+			</HelmetProvider>
+		</div>
 	);
 }
