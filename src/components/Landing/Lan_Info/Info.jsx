@@ -1,4 +1,4 @@
-import './Info.css'
+import './Info.css';
 
 export default function Info() {
 	return (

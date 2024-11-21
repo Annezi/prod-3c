@@ -11,6 +11,7 @@ import Study from "./pages/Study";
 import Travelling from "./pages/Travelling";
 import WhereToGo from "./pages/WhereToGo";
 import Profile from "./pages/Profile";
+import { HelmetProvider } from 'react-helmet-async';
 
 const router = createHashRouter([
 	{
@@ -49,8 +50,10 @@ const router = createHashRouter([
 
 export default function App() {
 	return (
-		<div className="App">
-			<RouterProvider router={router} />
-		</div>
+		<HelmetProvider>
+			<div className="App">
+				<RouterProvider router={router} />
+			</div>
+		</HelmetProvider>
 	);
 }
