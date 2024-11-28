@@ -18,7 +18,6 @@ export default function Articles() {
 				<meta property="og:title" content="Первое апреля в Японии" />
 				<meta property="og:description" content="Какие розыгрыши устраивают японцы, и где можно купить ведерко куриных косточек" />
 			</Helmet>
-			{/* шлем на голове! */}
 			<Header />
 			{/* <Banner /> */}
 			<Essay />
