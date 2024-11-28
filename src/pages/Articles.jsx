@@ -19,11 +19,11 @@ export default function Articles() {
 				<meta property="og:description" content="Какие розыгрыши устраивают японцы, и где можно купить ведерко куриных косточек" />
 			</Helmet>
 			<Header />
-			{/* <Banner /> */}
+			<Banner />
 			<Essay />
-			{/* <ShareButtons /> */}
-			{/* <ReadMore /> */}
-			{/* <Footer /> */}
+			<ShareButtons />
+			<ReadMore />
+			<Footer />
 		</div>
 	);
 }
