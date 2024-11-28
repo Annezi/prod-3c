@@ -2,7 +2,6 @@ import './Essay.css'
 
 export default function Essay() {
 	return (
-		<div className="essay-container">
 			<div className="essay-MainInfo">
 				<div className="text-container">
 					<div className="text-paragraph-m">Как и в России, День дураков отмечается в Японии 1 апреля.</div>
@@ -36,25 +35,5 @@ export default function Essay() {
 					</div>
 				</div>
 			</div>
-			<div className="dictionary-container shadow">
-				<div className="dictionary-title text-subtitle-s">Словарь</div>
-				<div className="dictionary-content">
-					<div className="japan-text text-subtitle-s">エイプリルフール (四月馬鹿, 万愚節)</div>
-					<div className="content-trascription text-paragraph-m">День дурака</div>
-				</div>
-				<div className="dictionary-content">
-					<div className="japan-text text-subtitle-s">不義理の日</div>
-					<div className="content-trascription text-paragraph-m">День дурака (устаревшее)</div>
-				</div>
-				<div className="dictionary-content">
-					<div className="japan-text text-subtitle-s">うそ</div>
-					<div className="content-trascription text-paragraph-m">Ложь</div>
-				</div>
-				<div className="dictionary-content">
-					<div className="japan-text text-subtitle-s">うそをついてよい</div>
-					<div className="content-trascription text-paragraph-m">«Можно и соврать»</div>
-				</div>
-			</div>
-		</div>
 	)
 }

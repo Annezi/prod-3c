@@ -9,47 +9,77 @@ export default function Navigation() {
 
 	useEffect(() => {
 		if (location.pathname === '/study' || location.pathname === '/where-to-go' || location.pathname === '/travelling' || location.pathname === '/about' || location.pathname === '/profile') {
-		  setIsAlarmPopupOpen(true);
+			setIsAlarmPopupOpen(true);
 		} else {
-		  setIsAlarmPopupOpen(false);
+			setIsAlarmPopupOpen(false);
 		}
-	  }, [location.pathname]);
+	}, [location.pathname]);
 
 	const handleAlarmPopupClose = () => {
 		setIsAlarmPopupOpen(false);
 	};
 
 	return (
-		<div className="header">
-			<div className="header-logo text-subtitle-l">
-				<Link to="/">МИЧИ</Link>
+		<div className='headers-container'>
+			<div className="header shadow">
+				<div className="header-logo">
+					<Link to="/">
+						<img src="./Logo_Nippon.svg" alt="Logo" />
+					</Link>
+				</div>
+
+				<div className="navbar">
+					<div className="nav-links text-subtitle-s">
+						<Link to="/where-to-go">Что делать</Link>
+					</div>
+					<div className="nav-links text-subtitle-s">
+						<Link to="/study">Тесты</Link>
+					</div>
+					<div className="nav-links text-subtitle-s">
+						<Link to="/articles">Статьи</Link>
+					</div>
+					<div className="nav-links text-subtitle-s">
+						<Link to="/travelling">Новости</Link>
+					</div>
+					<div className="nav-links text-subtitle-s">
+						<Link to="/about">О нас</Link>
+					</div>
+				</div>
+
+				<div className="search">
+					<Link to="/profile">
+						<img src="./Icons/Search.svg" alt="search" />
+					</Link>
+				</div>
+
+				{isAlarmPopupOpen && <AlarmPopup onClose={handleAlarmPopupClose} />}
 			</div>
 
-			<div className="navbar shadow">
-				<div className="nav-links text-subtitle-s">
-					<Link to="/articles">Статьи</Link>
-				</div>
-				<div className="nav-links text-subtitle-s">
-					<Link to="/study">Обучение</Link>
-				</div>
-				<div className="nav-links text-subtitle-s">
-					<Link to="/where-to-go">Куда сходить?</Link>
-				</div>
-				<div className="nav-links text-subtitle-s">
-					<Link to="/travelling">Путешествия</Link>
-				</div>
-				<div className="nav-links text-subtitle-s">
-					<Link to="/about">О нас</Link>
+			<div className="mobile-navbar">
+				<div className="mobile-line"></div>
+				<div className="mobile-bar">
+					<div className="menu-button">
+						<img src="./Icons/WhatToDo.svg" alt="img" />
+						<div className='text-subtitle-s'>Что делать</div>
+					</div>
+					<div className="menu-button">
+						<img src="./Icons/Test.svg" alt="img" />
+						<div className='text-subtitle-s'>Тесты</div>
+					</div>
+					<div className="menu-button">
+						<img src="./Icons/Articles.svg" alt="img" />
+						<div className='text-subtitle-s'>Статьи</div>
+					</div>
+					<div className="menu-button">
+						<img src="./Icons/News.svg" alt="img" />
+						<div className='text-subtitle-s'>Новости</div>
+					</div>
+					<div className="menu-button">
+						<img src="./Icons/AboutUs.svg" alt="img" />
+						<div className='text-subtitle-s'>О нас</div>
+					</div>
 				</div>
 			</div>
-
-			<div className="profile">
-				<Link to="/profile">
-					<img src="./profile_photo.jpg" alt="avatar" />
-				</Link>
-			</div>
-			
-			{isAlarmPopupOpen && <AlarmPopup onClose={handleAlarmPopupClose} />}
 		</div>
 	);
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @font-face {
 	font-family: 'KOT-Eitai Gothic';
@@ -30,6 +30,7 @@ img {
 	--gray-color: #888888;
 	--light-gray-color: #F3F3F3;
 	--red-color: #C61C1C;
+	--dark-blue-color: #1B0956;
 }
 
 .text-title-l {
@@ -112,7 +113,7 @@ img {
 
 .text-paragraph-l {
 	color: var(--black-color);
-	font-family: Roboto;
+	font-family: Inter;
 	font-size: 24px;
 	font-style: bold;
 	font-weight: 400;
@@ -120,7 +121,7 @@ img {
 }
 
 .text-paragraph-m {
-	font-family: Roboto;
+	font-family: Inter;
 	font-size: 20px;
 	font-style: bold;
 	font-weight: 400;
@@ -128,7 +129,7 @@ img {
 }
 
 .text-paragraph-s {
-	font-family: Roboto;
+	font-family: Inter;
 	font-size: 16px;
 	font-style: bold;
 	font-weight: 400;
@@ -188,4 +189,17 @@ a {
 
 .no-scroll {
 	overflow: hidden;
+}
+
+@media screen and (max-width : 768px) {	
+	.text-subtitle-s {
+		color: var(--dark-blue-color);
+		font-family: Inter;
+		font-size: 10px;
+		font-weight: 600;
+		line-height: normal;
+	}
+}
+
+@media screen and (max-width : 390px) {
 }

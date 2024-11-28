@@ -2,7 +2,6 @@
 	width: 1396px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
 }
 
 .essay-MainInfo {
@@ -30,23 +29,4 @@
 	width: 452px;
 	display: flex;
 	text-align: center;
-}
-
-.dictionary-container {
-	position: sticky;
-	top: 20px;
-	width: 452px;
-	height: 398px;
-	padding: 20px;
-	border-radius: 10px;
-	display: flex;
-	flex-direction: column;
-	gap: 26px;
-	margin-left: 138px;
-}
-
-.dictionary-content {
-	display: flex;
-	flex-direction: column;
-	gap: 14px;
 }
