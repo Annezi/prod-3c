@@ -12,3 +12,9 @@
 .toTop {
 	cursor: pointer;
 }
+
+@media screen and (max-width : 768px) {
+	.footer-container {
+		display: none;
+	}
+}
