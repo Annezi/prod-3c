@@ -14,6 +14,8 @@
 }
 
 .img-container {
+	width: 100%;
+	max-width: 688px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -21,7 +23,20 @@
 
 .img-description {
 	color: var(--black-color);
-	width: 452px;
+	max-width: 452px;
+	width: 100%;
 	display: flex;
 	text-align: center;
+}
+
+@media screen and (max-width : 768px) {
+	.img-container img {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width : 670px) {
+	.img-container img {
+		width: 90%;
+	}
 }

@@ -81,3 +81,10 @@
 	color: var(--red-color);
 	cursor: pointer;
 }
+
+@media screen and (max-width : 670px) {
+	.share-buttons {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
