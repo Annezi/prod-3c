@@ -60,23 +60,23 @@ export default function Navigation() {
 				<div className="mobile-bar">
 					<div className="menu-button">
 						<img src="./Icons/WhatToDo.svg" alt="img" />
-						<div className='text-subtitle-s'>Что делать</div>
+						<div className='text-subtitle-l'>Что делать</div>
 					</div>
 					<div className="menu-button">
 						<img src="./Icons/Test.svg" alt="img" />
-						<div className='text-subtitle-s'>Тесты</div>
+						<div className='text-subtitle-l'>Тесты</div>
 					</div>
 					<div className="menu-button">
 						<img src="./Icons/Articles.svg" alt="img" />
-						<div className='text-subtitle-s'>Статьи</div>
+						<div className='text-subtitle-l'>Статьи</div>
 					</div>
 					<div className="menu-button">
 						<img src="./Icons/News.svg" alt="img" />
-						<div className='text-subtitle-s'>Новости</div>
+						<div className='text-subtitle-l'>Новости</div>
 					</div>
 					<div className="menu-button">
 						<img src="./Icons/AboutUs.svg" alt="img" />
-						<div className='text-subtitle-s'>О нас</div>
+						<div className='text-subtitle-l'>О нас</div>
 					</div>
 				</div>
 			</div>

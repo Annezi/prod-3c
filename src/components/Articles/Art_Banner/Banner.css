@@ -1,14 +1,16 @@
 .banner-container {
-	width: 1396px;
-	height: 600px;
+	width: 100%;
+	max-width: 1396px;
+	min-height: 600px;
 	background-image: url(/public/Articles/articles_cover.jpg);
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	border-radius: 20px;
+	padding: 40px 58px 40px 58px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 40px;
 }
 
 .ban-infoSub {

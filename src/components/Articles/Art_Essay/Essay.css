@@ -1,11 +1,6 @@
-.essay-container {
-	width: 1396px;
-	display: flex;
-	flex-direction: row;
-}
-
 .essay-MainInfo {
-	width: 688px;
+	width: 100%;
+	max-width: 688px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

@@ -1,8 +1,9 @@
 .readMore-container {
-	width: 1396px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
+	overflow: hidden;
 }
 
 .readMore_preview-grid {

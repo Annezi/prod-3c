@@ -175,6 +175,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 33px;
+	padding: 0 22px 0 22px;
 }
 
 .ContainerBox>*:not(:last-child, :first-child) {
@@ -192,12 +193,18 @@ a {
 }
 
 @media screen and (max-width : 768px) {	
-	.text-subtitle-s {
+	.text-subtitle-l {
 		color: var(--dark-blue-color);
 		font-family: Inter;
 		font-size: 10px;
 		font-weight: 600;
 		line-height: normal;
+	}
+	
+	.japan-text {
+		color: var(--red-color);
+		text-decoration: underline;
+		cursor: pointer;
 	}
 }
 
