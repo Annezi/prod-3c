@@ -192,7 +192,7 @@ a {
 	overflow: hidden;
 }
 
-@media screen and (max-width : 768px) {	
+@media screen and (max-width : 768px) {
 	.text-subtitle-l {
 		color: var(--dark-blue-color);
 		font-family: Inter;
@@ -200,13 +200,40 @@ a {
 		font-weight: 600;
 		line-height: normal;
 	}
-	
+
 	.japan-text {
 		color: var(--red-color);
 		text-decoration: underline;
 		cursor: pointer;
 	}
+
+	.text-title-l {
+		font-family: KOT-Eitai Gothic;
+		font-size: 60px;
+		font-style: bold;
+		font-weight: 400;
+		line-height: normal;
+	}
 }
 
-@media screen and (max-width : 390px) {
+@media screen and (max-width : 670px) {
+	.text-paragraph-l {
+		font-size: 14px;
+	}
+
+	.text-paragraph-m {
+		font-size: 14px;
+	}
+
+	.text-title-l {
+		font-family: KOT-Eitai Gothic;
+		font-size: 32px;
+		font-style: bold;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.text-paragraph-s {
+		font-size: 12px;
+	}
 }

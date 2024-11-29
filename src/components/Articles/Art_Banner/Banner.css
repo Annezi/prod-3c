@@ -7,7 +7,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	border-radius: 20px;
-	padding: 40px 58px 40px 58px;
+	padding: 40px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -62,4 +62,18 @@
 .infoMain-publushDate {
 	color: var(--light-gray-color);
 	opacity: 0.6;
+}
+
+@media screen and (max-width : 670px) {
+	.ban-infoSub {
+		flex-direction: column;
+		justify-content: start;
+	}
+
+	.ban-readTime {
+		flex-direction: row;
+		align-items: flex-start;
+		margin-top: 20px;
+	}
+
 }
