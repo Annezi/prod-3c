@@ -11,6 +11,7 @@ import Study from "./pages/Study";
 import Travelling from "./pages/Travelling";
 import WhereToGo from "./pages/WhereToGo";
 import Profile from "./pages/Profile";
+import Landing from "./pages/Landing";
 import { HelmetProvider } from 'react-helmet-async';
 
 const router = createHashRouter([
@@ -45,6 +46,10 @@ const router = createHashRouter([
 	{
 		path: "/profile",
 		element: <Profile />,
+	},
+	{
+		path: "/landing",
+		element: <Landing />,
 	},
 ]);
 

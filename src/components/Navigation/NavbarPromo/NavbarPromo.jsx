@@ -9,10 +9,10 @@ export default function PromoNavigation() {
 					<Link to="/">О нас</Link>
 				</div>
 				<div className="nav-links-promo text-subtitle-s">
-					<Link to="/promo">Промо</Link>
+					<Link to="/articles">Тест</Link>
 				</div>
 				<div className="nav-links-promo text-subtitle-s">
-					<Link to="/articles">Узнать больше</Link>
+					<Link to="/articles">Обратная связь</Link>
 				</div>
 			</div>
 		</div>

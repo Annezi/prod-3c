@@ -1,0 +1,28 @@
+.news-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.alarm-news {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.news-info {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	width: 100%;
+	height: 100%;
+	justify-content: center
+}
+
+.news-text {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 442px;
+}

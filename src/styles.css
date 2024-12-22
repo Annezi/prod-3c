@@ -33,6 +33,53 @@ img {
 	--dark-blue-color: #1B0956;
 }
 
+/* new text styles */
+.text-title-1 {
+	font-family: KOT-Eitai Gothic;
+	font-size: 36px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase
+}
+
+.text-subtitle-1 {
+	font-family: KOT-Eitai Gothic;
+	font-size: 24px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase
+}
+
+.text-paragraph {
+	font-family: Inter;
+	font-size: 16px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-button {
+	font-family: KOT-Eitai Gothic;
+	font-size: 16px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase
+}
+
+.text-placeholder {
+	font-family: KOT-Eitai Gothic;
+	font-size: 12px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
+/* old text styles */
+
 .text-title-l {
 	color: var(--black-color);
 	font-family: KOT-Eitai Gothic;
@@ -136,10 +183,12 @@ img {
 	line-height: normal;
 }
 
+
+/* accent text */
+
 .japan-text {
 	color: var(--red-color);
-	text-decoration: underline;
-	cursor: pointer;
+	text-decoration: none;
 }
 
 * {

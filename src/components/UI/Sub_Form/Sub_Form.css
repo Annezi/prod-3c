@@ -7,7 +7,7 @@
 
 .input-field::placeholder {
 	font-size: 20px;
-	color: var(--gray-color);
+	color: var(--light-gray-color);
 }
 
 .input-field {
@@ -19,6 +19,8 @@
 	font-size: 16px;
 	outline: none;
 	transition: border-color 0.3s ease;
+	background-color: var(--red-color);
+	color: var(--white-color);
 }
 
 .input-field:focus {

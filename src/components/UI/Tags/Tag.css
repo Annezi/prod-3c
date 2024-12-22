@@ -1,21 +1,46 @@
 .tag {
-	height: 40px;
 	display: flex;
 	align-items: center;
-	padding: 6px 24px;
-	margin-right: 20px;
-	border: 2px solid white;
-	border-radius: 20px;
-	color: white;
-	cursor: pointer;
+	padding: 12px 20px;
+	border: 2px solid;
+	border-radius: 5px;
 	transition: background-color 0.3s ease;
 }
 
-.tag:hover {
+/* размеры кнопок */
+.tag-small {
+	height: 28px;
+}
+
+.tag-medium {
+	height: 40px;
+}
+
+.tag-large {
+	height: 42px;
+}
+
+/* темы кнопок */
+.tag-white {
+	border-color: var(--white-color);
+	color: var(--white-color);
+}
+
+.tag-white:hover {
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-@media screen and (max-width : 670px) {
+.tag-red {
+	border-color: var(--red-color);
+	color: var(--red-color);
+}
+
+.tag-red:hover {
+	background-color: var(--red-color);
+	color: var(--white-color);
+}
+
+@media screen and (max-width: 670px) {
 	.tag {
 		height: 28px;
 	}

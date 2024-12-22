@@ -1,0 +1,19 @@
+.stackTags-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.text-title-1 {
+	
+}
+
+.stackTags-stack {
+	width: 742px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 12px;
+}

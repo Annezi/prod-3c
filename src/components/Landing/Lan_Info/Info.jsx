@@ -3,19 +3,26 @@ import './Info.css';
 export default function Info() {
 	return (
 		<div className='mainBanner-container'>
-			<div className='mainBanner'>
-				<div className="japanTexts">
-					<div className="japanText text-title-s-accent">あまだれ</div>
-					<div className="japanText text-title-s-accent">せき</div>
-					<div className="japanText text-title-s-accent">を</div>
-					<div className="japanText text-title-s-accent">うがつ</div>
+			<div className="mainBanner-info-plate">
+				<div className='mainBanner'>
+					<div className="nippon-logo">
+						<img src="./logo_long.svg" alt="logo" className='custom-img' />
+					</div>
+					<div className="nippon-slogan text-title-1">МЕДИА О ЯПОНСКОЙ КУЛЬТУРЕ</div>
 				</div>
-				<div className="michi-logo">
-					<img src="./Landing/logo_L.svg" alt="logo" />
+				<div className="lan-card">
+					<div className="banner-l-card-img">
+						<img src="./Landing/article-photo.png" alt="preview" />
+					</div>
+					<div className="text-subtitle-1">мы любим кушать роллы и смотреть аниме, ня каваи</div>
+					<div className="text-paragraph">А если серьезно, мы просто любим Японию и хотим рассказать о ней как можно больше, не превращая это в нудные лекции по культуре.</div>
 				</div>
-				<div className="bottom-navigation">
-					<div className="left-navigation text-subtitle-l-accent">みち - медиа о настоящей японии</div>
-					<div className="right-navigation-slider text-subtitle-l-accent">1</div>
+				<div className="lan-right-card">
+					<div className="banner-r-card-img">
+						<img src="./Landing/tanaka-san-smart.png" alt="tanaka-san" />
+					</div>
+					<div className="banner-r-card-title text-subtitle-1">НИППОН (яп. 日本)</div>
+					<div className="text-paragraph">Одно из произношений слова Япония. Еще эти кандзи произносят как Нихон, что сейчас употребляется чаще. Однако Ниппон появился раньше, и, например, в Осаке до сих пор по названиям мест заметно, что тут Ниппон употребляли больше. </div>
 				</div>
 			</div>
 		</div>

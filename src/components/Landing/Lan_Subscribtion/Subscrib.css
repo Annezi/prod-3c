@@ -13,4 +13,9 @@
 	display: flex;
 	flex-direction: column;
 	gap: 28px;
+	width: 440px;
+	height: 221px;
+	padding: 20px;
+	background-color: var(--red-color);
+	border-radius: 10px;
 }
