@@ -45,3 +45,9 @@
 		height: 28px;
 	}
 }
+
+@media screen and (max-width : 390px) {
+	.tag {
+		padding: 8px 4px;
+	}
+}

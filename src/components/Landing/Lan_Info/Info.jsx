@@ -5,6 +5,12 @@ export default function Info() {
 		<div className='mainBanner-container'>
 			<div className="mainBanner-info-plate">
 				<div className='mainBanner'>
+					<div className="black-dots">
+						<div className="dot dot-top-left"></div>
+						<div className="dot dot-top-right"></div>
+						<div className="dot dot-bot-left"></div>
+						<div className="dot dot-bot-right"></div>
+					</div>
 					<div className="nippon-logo">
 						<img src="./logo_long.svg" alt="logo" className='custom-img' />
 					</div>

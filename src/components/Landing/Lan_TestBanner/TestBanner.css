@@ -10,15 +10,20 @@
 	border: 10px solid var(--red-color);
 }
 
+.TestBanner-img :nth-child(2) {
+	display: none;
+}
+
+.TestBanner-img.hidden {
+	display: block;
+}
+
 .TestBanner-info {
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
-	width: 531px;
-	height: 221px;
 	align-items: center;
 	justify-content: center;
-	margin-right: 40px;
 }
 
 .TestBanner-Description {
@@ -28,4 +33,49 @@
 	width: 531px;
 	color: var(--white-color);
 	text-align: center;
+}
+
+@media screen and (max-width : 390px) {
+	.TestBanner-container {
+		width: 90%;
+		height: auto;
+		padding: 16px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+		justify-content: space-between;
+		background-color: var(--red-color);
+		border-radius: 10px;
+		border: 10px solid var(--red-color);
+	}
+
+	.TestBanner-img :nth-child(2) {
+		display: block;
+	}
+
+	.TestBanner-img :nth-child(1) {
+		display: none;
+	}
+
+	.TestBanner-info {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.TestBanner-Description {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 317px;
+		color: var(--white-color);
+		text-align: center;
+	}
+
+	.TestBanner-img.hidden {
+		display: none;
+	}
 }

@@ -5,21 +5,21 @@ import StackTags from "../components/Landing/Lan_StackTags/StackTags";
 import TestBanner from "../components/Landing/Lan_TestBanner/TestBanner";
 import Maskot from "../components/Landing/Lan_Maskot/Maskot";
 import Subscrib from "../components/Landing/Lan_Subscribtion/Subscrib";
-import HeaderPromo from "../components/Navigation/NavbarPromo/NavbarPromo";
+import NavbarPromo from "../components/Navigation/NavbarPromo/NavbarPromo";
 import Footer from "../components/Navigation/Footer/Footer";
 
 export default function Landing() {
 	return (
 		<div className="LandingBox">
-			<HeaderPromo />
+			<NavbarPromo />
 			<Info />
 			<News />
 			<About />
 			<StackTags />
-			<TestBanner />
+			<TestBanner id="test-banner" />
 			<Maskot />
-			<Subscrib />
-			<Footer />
+			{/* <Subscrib id="subscrib" /> */}
+			{/* <Footer /> */}
 		</div>
 	);
 }

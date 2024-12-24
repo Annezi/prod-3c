@@ -215,7 +215,7 @@ a {
 }
 
 .LandingBox>*:not(:last-child, :first-child) {
-	margin-bottom: 140px;
+	margin-bottom: 80px;
 }
 
 .ContainerBox {
@@ -228,7 +228,7 @@ a {
 }
 
 .ContainerBox>*:not(:last-child, :first-child) {
-	margin-bottom: 70px;
+	margin-bottom: 80px;
 }
 
 .modalClose {
@@ -284,5 +284,13 @@ a {
 
 	.text-paragraph-s {
 		font-size: 12px;
+	}
+
+	.text-title-1 {
+		font-size: 24px;
+	}
+	
+	.text-subtitle-1 {
+		font-size: 20px;
 	}
 }

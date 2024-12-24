@@ -9,6 +9,7 @@ export default function About() {
 			</div>
 			<div className="about-big-img">
 				<img src="./Landing/About-pic-1.png" alt="-" />
+				<img src="./Landing/About-pic-mobile.png" alt="-" />
 			</div>
 			<div className="about-text shadow">
 				<div className="text-subtitle-1">Статьи</div>

@@ -8,13 +8,13 @@ export default function News() {
 	return (
 		<div className="news-container">
 			<div className="alarm-news">
-					<Marquee text={news_text1}/>
-					<Marquee text={news_text2}/>
+				<Marquee text={news_text1} />
+				<Marquee text={news_text2} />
 			</div>
 			<div className="news-info">
 				<div className="news-text">
-					<div className="text-subtitle-1">больше типичных японских новостей вы можете почитать у нас</div>
-					<div className="text-paragraph">Мы тщательно отбираем новости для публикации, чтобы вам не было скучно их читать.</div>
+					<div className="news-head text-subtitle-1">больше типичных японских новостей вы можете почитать у нас</div>
+					<div className="news-description text-paragraph">Мы тщательно отбираем новости для публикации, чтобы вам не было скучно их читать.</div>
 				</div>
 				<div className="news-tanaka-san">
 					<img src="./Landing/tanaka-san-happy.png" alt="tanaka-san" />
