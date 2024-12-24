@@ -58,7 +58,7 @@ const router = createBrowserRouter([
 	},
 ],
 	{
-		basename: "/https://github.com/Annezi/prod-3c", 
+		basename: "https://annezi.github.io/prod-3c/", 
 	}
 );
 
