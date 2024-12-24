@@ -1,6 +1,6 @@
 import "./styles.css";
 import {
-	createHashRouter,
+	createBrowserRouter,
 	RouterProvider
 } from "react-router-dom";
 import Index from "./pages/Index";
@@ -12,9 +12,10 @@ import Travelling from "./pages/Travelling";
 import WhereToGo from "./pages/WhereToGo";
 import Profile from "./pages/Profile";
 import Landing from "./pages/Landing";
+import Styleguide from "./pages/Styleguide/Styleguide";
 import { HelmetProvider } from 'react-helmet-async';
 
-const router = createHashRouter([
+const router = createBrowserRouter([
 	{
 		path: "/",
 		element: <Index />,
@@ -50,6 +51,10 @@ const router = createHashRouter([
 	{
 		path: "/landing",
 		element: <Landing />,
+	},
+	{
+		path: "/styleguide",
+		element: <Styleguide />,
 	},
 ]);
 

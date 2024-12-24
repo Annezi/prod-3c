@@ -52,6 +52,15 @@ img {
 	text-transform: uppercase
 }
 
+.text-subtitle-2 {
+	font-family: KOT-Eitai Gothic;
+	font-size: 20px;
+	font-style: bold;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase
+}
+
 .text-paragraph {
 	font-family: Inter;
 	font-size: 16px;
