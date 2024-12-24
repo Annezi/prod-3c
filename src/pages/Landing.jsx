@@ -19,7 +19,7 @@ export default function Landing() {
 			<TestBanner id="test-banner" />
 			<Maskot />
 			<Subscrib id="subscrib" />
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }
