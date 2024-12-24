@@ -250,6 +250,11 @@ a {
 	overflow: hidden;
 }
 
+img {
+	user-select: none;
+	pointer-events: none;
+}
+
 @media screen and (max-width : 768px) {
 	.text-subtitle-l {
 		color: var(--dark-blue-color);
