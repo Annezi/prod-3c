@@ -56,7 +56,11 @@ const router = createBrowserRouter([
 		path: "/styleguide",
 		element: <Styleguide />,
 	},
-]);
+],
+	{
+		basename: "/prod-3c", 
+	}
+);
 
 export default function App() {
 	return (
