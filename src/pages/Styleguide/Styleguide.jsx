@@ -198,7 +198,7 @@ export default function Styleguide() {
 									</div>
 								</div>
 								<div className="sg-graphic-wrapper">
-									<div className="text-subtitle-1">Спэшл — на фон ставятся иероглифы по тематике, сверху добавляются картинки, не более трех и по теме статьи; композиция может быть любая</div>
+									<div className="text-subtitle-1">Спэшл — на фон ставятся иероглифы по тематике, сверху добавляются картинки по теме статьи; композиция может быть любая</div>
 									<img src="./Styleguide/cover-5.png" alt="-" />
 								</div>
 							</div>

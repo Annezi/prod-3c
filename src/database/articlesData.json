@@ -17,7 +17,7 @@
 				},
 				{
 					"type": "image",
-					"src": "/Articles/image1.jpg",
+					"src": "./Articles/japan-wheather.jpg",
 					"alt": "Японский храм"
 				}
 			]
@@ -39,7 +39,7 @@
 				},
 				{
 					"type": "image",
-					"src": "/Articles/image2.jpg",
+					"src": "./Articles/japan-dinner.jpg",
 					"alt": "Фестиваль в Японии"
 				}
 			]
@@ -61,7 +61,7 @@
 				},
 				{
 					"type": "image",
-					"src": "/Articles/image2.jpg",
+					"src": "./Articles/japan-market.jpg",
 					"alt": "Фестиваль в Японии"
 				}
 			]
@@ -83,7 +83,7 @@
 				},
 				{
 					"type": "image",
-					"src": "/Articles/image2.jpg",
+					"src": "./Articles/japan-market.jpg",
 					"alt": "Фестиваль в Японии"
 				}
 			]
@@ -102,7 +102,7 @@
 				},
 				{
 					"type": "image",
-					"src": "/Articles/image2.jpg",
+					"src": "./Articles/japan-dinner.jpg",
 					"alt": "Фестиваль в Японии"
 				}
 			]

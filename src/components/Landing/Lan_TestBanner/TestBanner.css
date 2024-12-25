@@ -35,6 +35,22 @@
 	text-align: center;
 }
 
+@media screen and (max-width: 1400px) {
+	.TestBanner-container {
+		width: 90%;
+		height: auto;
+		padding: 16px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+		justify-content: space-between;
+		background-color: var(--red-color);
+		border-radius: 10px;
+		border: 10px solid var(--red-color);
+	}
+}
+
 @media screen and (max-width : 390px) {
 	.TestBanner-container {
 		width: 90%;

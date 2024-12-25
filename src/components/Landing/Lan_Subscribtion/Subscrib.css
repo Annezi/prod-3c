@@ -19,3 +19,17 @@
 	background-color: var(--red-color);
 	border-radius: 10px;
 }
+
+@media screen and (max-width: 1400px) {
+	.subscribtion-container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.sub-info-left {
+		text-align: center;
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+}
