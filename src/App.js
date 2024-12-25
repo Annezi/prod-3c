@@ -6,6 +6,7 @@ import {
 import Index from "./pages/Index";
 import Promo from "./pages/Promo";
 import About from "./pages/About";
+import ArticleDetail from "./pages/ArticleDetail";
 import Articles from "./pages/Articles";
 import Study from "./pages/Study";
 import Travelling from "./pages/Travelling";
@@ -31,6 +32,10 @@ const router = createHashRouter([
 	{
 		path: "/articles",
 		element: <Articles />,
+	},
+	{
+		path: "/article/:id",
+		element: <ArticleDetail />,
 	},
 	{
 		path: "/study",

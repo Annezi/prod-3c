@@ -1,6 +1,6 @@
 import './Tag.css'
 
-export default function Tag({ text, size = 'medium', theme = 'default' }) {
+export default function Tag({ text, size = 'medium', theme = 'white' }) {
 	const tagClass = `tag tag-${size} tag-${theme}`;
 
 	let textClass = '';

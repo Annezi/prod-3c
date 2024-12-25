@@ -17,6 +17,11 @@
 	margin-bottom: 50px;
 	border-radius: 20px;
 	padding: 0 16px;
+	background-color: var(--white-color);
+}
+
+.header-logo {
+	display: block; 
 }
 
 .header-logo img {

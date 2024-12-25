@@ -1,8 +1,8 @@
-import './Banner.css'
-import Tag from "../../UI/Tags/Tag"
-import Breadcrumbs from "../../UI/Breadcrumbs/Breadcrumbs"
+import './Banner.css';
+import Tag from "../../UI/Tags/Tag";
+import Breadcrumbs from "../../UI/Breadcrumbs/Breadcrumbs";
 
-export default function Banner() {
+export default function Banner({ tags, title, description, readTime, publishDate, cover }) {
 	const breadcrumbItems = [
 		{ label: 'Статьи', url: 'Articles' },
 		{ label: 'Культура', url: 'Culture' },
@@ -10,27 +10,28 @@ export default function Banner() {
 	];
 
 	return (
-		<div className="banner-container">
+		<div className="banner-container" style={{ backgroundImage: `url(${cover})` }}>
 			<div className="ban-infoSub">
 				<div className="ban-breadcrumbs">
 					<Breadcrumbs items={breadcrumbItems} />
 				</div>
 				<div className="ban-readTime">
-					<div className="readTime-title text-paragraph-m">Время чтения :</div>
-					<div className="readTime-time text-paragraph-m">~5 минут</div>
+					<div className="readTime-title text-paragraph-m">Время чтения:</div>
+					<div className="readTime-time text-paragraph-m">{readTime}</div>
 				</div>
 			</div>
 			<div className="ban-infoMain">
 				<div className="infoMain-ArticleInfo">
 					<div className="ArticleInfo-tags">
-						<Tag text="Культура" />
-						<Tag text="Праздники" />
+						{tags.map((tag, index) => (
+							<Tag key={index} text={tag} size='small' theme='white' />
+						))}
 					</div>
-					<div className="ArticleInfo-title text-title-l">Первое апреля в Японии</div>
-					<div className="ArticleInfo-description text-paragraph-m">Какие розыгрыши устраивают японцы, и где можно купить ведерко куриных косточек</div>
+					<div className="ArticleInfo-title text-title-l">{title}</div>
+					<div className="ArticleInfo-description text-paragraph-m">{description}</div>
 				</div>
-				<div className="infoMain-publushDate text-paragraph-s">22 октября 2024</div>
+				<div className="infoMain-publushDate text-paragraph-s">{publishDate}</div>
 			</div>
 		</div>
-	)
+	);
 }

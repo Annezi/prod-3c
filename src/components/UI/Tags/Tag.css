@@ -10,14 +10,18 @@
 /* размеры кнопок */
 .tag-small {
 	height: 28px;
+	color: var(--white-color);
+	margin-right: 8px;
 }
 
 .tag-medium {
 	height: 40px;
+	margin-right: 8px;
 }
 
 .tag-large {
 	height: 42px;
+	margin-right: 8px;
 }
 
 /* темы кнопок */

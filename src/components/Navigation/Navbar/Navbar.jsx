@@ -23,8 +23,8 @@ export default function Navigation() {
 		<div className='headers-container'>
 			<div className="header shadow">
 				<div className="header-logo">
-					<Link to="/">
-						<img src="./Logo_Nippon.svg" alt="Logo" />
+					<Link to="/" className="header-logo">
+						<img src="./logo_short-menu.svg" alt="Logo" />
 					</Link>
 				</div>
 
