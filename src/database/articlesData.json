@@ -24,7 +24,7 @@
 		},
 		{
 			"id": 2,
-			"cover": "/Articles/cover-2.png",
+			"cover": "./Articles/cover-2.png",
 			"tags": [
 				"еда",
 				"рецепты"
@@ -46,7 +46,7 @@
 		},
 		{
 			"id": 3,
-			"cover": "/Articles/cover-3.png",
+			"cover": "./Articles/cover-3.png",
 			"tags": [
 				"культура",
 				"новое"
@@ -68,7 +68,7 @@
 		},
 		{
 			"id": 4,
-			"cover": "/Articles/cover-4.png",
+			"cover": "./Articles/cover-4.png",
 			"tags": [
 				"аниме",
 				"рекомендации"
@@ -90,7 +90,7 @@
 		},
 		{
 			"id": 5,
-			"cover": "/Articles/cover-5.png",
+			"cover": "./Articles/cover-5.png",
 			"tags": [],
 			"title": "ТОП 10 БЛЮД, КОТОРЫЕ ВАМ ТОЧНО ПОНРАВЯТСЯ",
 			"description": "Японская кухня не такая простая, как вам кажется на первый взгляд. Вот 10 блюд, которые точно не оставят вас равнодушными",
@@ -109,7 +109,7 @@
 		},
 		{
 			"id": 6,
-			"cover": "/Articles/cover-1.png",
+			"cover": "./Articles/cover-1.png",
 			"tags": [
 				"Культура",
 				"Праздники"
