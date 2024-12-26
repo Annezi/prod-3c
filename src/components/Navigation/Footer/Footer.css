@@ -3,11 +3,24 @@
 	height: 60px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	padding: 14px 20px;
 	background: var(--red-color);
 }
+
+.footer-content-wrapper {
+	width: 100%;
+	max-width: 1360px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-content-img img {
+	filter: brightness(0) invert(1);
+  }
 
 .toTop {
 	cursor: pointer;

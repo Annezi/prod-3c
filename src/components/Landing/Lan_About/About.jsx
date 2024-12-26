@@ -20,14 +20,14 @@ export default function About() {
 			</div>
 			<div className="about-text shadow">
 				<div className="text-subtitle-1">что поделать</div>
-				<div className="text-paragraph">У нас есть раздел под названием «Что поделать» — здесь вы можете найти что-то пуки каки какашки какашки какашки и еще должна быть пятая строчка</div>
+				<div className="text-paragraph">В разделе «Что поделать» вы можете найти, какую мангу почитать или какое посмотреть аниме. Также, проведем вам тур по японским местечкам в России.</div>
 			</div>
 			<div className="about-img">
 				<img src="./Landing/About-pic-3.png" alt="-" />
 			</div>
 			<div className="about-text shadow">
 				<div className="text-subtitle-1">тесты</div>
-				<div className="text-paragraph">У нас есть куча интересных тестов, связанных с Японией. Туда сюда сюда туда туда сюда эээээ ну того самого короче и еше должна быть пятая строчка</div>
+				<div className="text-paragraph">У нас есть куча интересных тестов, связанных с Японией. Если вам всегда было интересно, каким бы вы были екаем или какой город вам подходит по вайбу, заходите сюда.</div>
 			</div>
 		</div>
 	);

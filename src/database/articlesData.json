@@ -160,7 +160,7 @@
 				},
 				{
 					"type": "image",
-					"src": "./Articles/2/3.jpg",
+					"src": "./Articles/2/3.png",
 					"alt": "Дзямбо такояки",
 					"description": "«Дзямбо такояки» по сравнению с обычным такояки"
 				},
@@ -198,7 +198,7 @@
 				},
 				{
 					"type": "image",
-					"src": "./Articles/2/6.jpg",
+					"src": "./Articles/2/6.png",
 					"alt": "Такояки",
 					"description": "Такояки"
 				},
@@ -395,7 +395,7 @@
 				},
 				{
 					"type": "image",
-					"src": "./Articles/5/3.jpg",
+					"src": "./Articles/5/3.jpeg",
 					"alt": "Бэнто",
 					"description": "Вариант подачи бэнто"
 				},
@@ -427,7 +427,7 @@
 				},
 				{
 					"type": "image",
-					"src": "./Articles/5/5.jpg",
+					"src": "./Articles/5/5.png",
 					"alt": "Бэнто",
 					"description": "Просто и сбалансированно"
 				}
