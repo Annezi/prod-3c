@@ -14,7 +14,7 @@ export default function Index() {
 			<MonthBest/>
 			<TestBanner id="test-banner" />
 			<ToDo />
-			<Subscrib text="подписывайтесь на наши новости!"/>
+			<Subscrib text="следите за нашими новостями!"/>
 			<Footer />
 		</div>
 	);

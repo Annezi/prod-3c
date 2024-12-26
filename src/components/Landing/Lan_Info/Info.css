@@ -48,7 +48,7 @@
 	pointer-events: auto;
 	grid-column: span 1;
 	width: 670px;
-	height: 480px;
+	height: 100%;
 	padding: 20px;
 	gap: 16px;
 	display: flex;
@@ -58,10 +58,17 @@
 	background-color: var(--white-color);
 }
 
+.lan-card .banner-l-card-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
 .lan-right-card {
 	grid-column: span 1;
 	width: 670px;
-	height: 480px;
+	height: 100%;
 	padding: 20px;
 	gap: 16px;
 	display: flex;
@@ -163,7 +170,7 @@
 	.lan-card {
 		grid-column: span 1;
 		width: 100%;
-		height: 430px;
+		height: 100%;
 		padding: 16px;
 		gap: 16px;
 		display: flex;
@@ -175,7 +182,7 @@
 	.lan-right-card {
 		grid-column: span 1;
 		width: 100%;
-		height: 260px;
+		height: 100%;
 		padding: 20px;
 		gap: 16px;
 		display: flex;
@@ -185,18 +192,8 @@
 		background-color: var(--white-color);
 	}
 
-	.banner-r-card-img img {
-		width: 100px;
-		height: 100px;
-	}
-
 	.banner-r-card-title {
 		color: var(--red-color);
-	}
-
-	.banner-l-card-img img {
-		width: 88vw;
-		height: 320px;
 	}
 
 	.black-dots {
@@ -216,22 +213,26 @@
 
 @media screen and (max-width : 1250px) {
 	.lan-card {
-		height: 480px;
+		width: 100%;
+		height: 100%;
 	}
 }
 
 @media screen and (max-width : 610px) {
 	.lan-right-card {
-		height: 300px;
+		width: 100%;
+		height: 100%;
 	}
 }
 
 @media screen and (max-width : 450px) {
 	.lan-card {
-		height: 520px;
+		width: 100%;
+		height: 100%;
 	}
 
 	.lan-right-card {
-		height: 340px;
+		width: 100%;
+		height: 100%;
 	}
 }

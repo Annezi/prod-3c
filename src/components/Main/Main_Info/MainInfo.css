@@ -44,11 +44,11 @@
 	color: var(--red-color);
 }
 
-.lan-card {
+.lan-main-card {
 	grid-column: span 1;
 	width: 670px;
-	height: 480px;
-	padding: 20px;
+	height: 100%;
+	padding-top: 20px;
 	gap: 16px;
 	display: flex;
 	flex-direction: column;
@@ -56,10 +56,14 @@
 	background-color: var(--white-color);
 }
 
+.lan-main-card-text {
+	text-align: center;
+}
+
 .lan-right-card {
 	grid-column: span 1;
 	width: 670px;
-	height: 480px;
+	height: 100%;
 	padding: 20px;
 	gap: 16px;
 	display: flex;
@@ -157,10 +161,10 @@
 		color: var(--red-color);
 	}
 
-	.lan-card {
+	.lan-main-card {
 		grid-column: span 1;
 		width: 100%;
-		height: 430px;
+		height: 100%;
 		padding: 16px;
 		gap: 16px;
 		display: flex;
@@ -172,7 +176,7 @@
 	.lan-right-card {
 		grid-column: span 1;
 		width: 100%;
-		height: 260px;
+		height: 100%;
 		padding: 20px;
 		gap: 16px;
 		display: flex;
@@ -212,11 +216,27 @@
 }
 
 @media screen and (max-width : 1250px) {
-	.lan-card {
-		height: 480px;
+	.lan-main-card {
+		width: 100%;
+		height: 100%;
 	}
 }
 
-@media screen and (max-width : 390px) {
-	
+@media screen and (max-width : 610px) {
+	.lan-right-card {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width : 450px) {
+	.lan-main-card {
+		width: 100%;
+		height: 100%;
+	}
+
+	.lan-right-card {
+		width: 100%;
+		height: 100%;
+	}
 }

@@ -5,7 +5,7 @@ import "./ToDo.css"
 export default function ToDo() {
 	return (
 		<div className="todo-box">
-			<TitlePlaceholder text="что делать?" />
+			<TitlePlaceholder className="title-placeholder" text="что делать?" />
 			<div className="todo-banners-wrapper">
 				<SighBanner
 					cover="./OtherImg/SignBanner-cover-1.png"
