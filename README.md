@@ -1,4 +1,4 @@
-# MICHI MVP BUILD
+#  NIPPON MVP BUILD
 
 [Ссылка на сборку сайта](https://annezi.github.io/prod-3c/) 
 
