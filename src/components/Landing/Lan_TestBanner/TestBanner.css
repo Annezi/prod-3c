@@ -81,6 +81,15 @@
 		color: var(--white-color);
 		text-align: center;
 	}
+}
 
-	
+@media screen and (max-width: 600px) {
+	.TestBanner-Description {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 80%;
+		color: var(--white-color);
+		text-align: center;
+	}
 }

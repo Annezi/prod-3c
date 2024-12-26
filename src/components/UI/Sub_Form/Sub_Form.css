@@ -26,3 +26,10 @@
 .input-field:focus {
 	border-bottom-color: var(--red-color);
 }
+
+
+@media screen and (max-width: 425px) {
+	.input-field {
+		width: 100%;
+	}
+}

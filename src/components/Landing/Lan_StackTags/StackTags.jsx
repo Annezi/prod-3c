@@ -6,7 +6,7 @@ export default function StackTags() {
 		<div className="stackTags-container">
 			<div className="text-title-1">и ещё...</div>
 			<div className="stackTags-stack">
-				<Tag text='ежедневная публикация' size='large' theme='red'/>
+				<Tag text='свежая публикация' size='large' theme='red'/>
 				<Tag text='микрорубрики' size='large' theme='red'/>
 				<Tag text='слово дня' size='large' theme='red'/>
 				<Tag text='мемы' size='large' theme='red'/>

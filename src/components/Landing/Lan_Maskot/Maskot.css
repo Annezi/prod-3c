@@ -14,3 +14,12 @@
 	width: 100%;
 	gap: 16px;
 }
+
+@media screen and (max-width: 710px) {
+	.maskot-img img {
+		width: 100px;
+	}
+	.maskot-img {
+		width: 100px;
+	}
+}

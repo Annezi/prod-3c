@@ -50,6 +50,7 @@ export default function ArticleList({ articles, limit, filteredIds, shadow = tru
 						<Link
 							key={article.id}
 							to={`/article/${article.id}`}
+							onClick={() => window.scrollTo(0, 0)}
 							className={`article-card-link ${gridClass}`}
 						>
 							<ArticleCard article={article} isLarge={isLarge} shadow={shadow} />

@@ -32,6 +32,7 @@ export default function Banner({ tags, title, description, readTime, publishDate
 				</div>
 				<div className="infoMain-publushDate text-paragraph-s">{publishDate}</div>
 			</div>
+			<div className="darken-bg"></div>
 		</div>
 	);
 }

@@ -1,27 +1,12 @@
 import "./ReadMore.css"
-import ArticlesPreview from "../../UI/Articles_Preview/Articles_Preview"
+import ArticleList from "../Article_List/ArticleList"
+import articles from "../../../database/articlesData.json"
 
 export default function ReadMore() {
 	return (
 		<div className="readMore-container">
 			<div className="text-title-m">Читайте дальше</div>
-			<div className="readMore_preview-grid">
-				<ArticlesPreview
-					title="Японское рождество"
-					description="Какие подарки дарят японцы и где можно отметить праздник"
-					backgroundImage="./Articles/articles_preview-1.jpg"
-				/>
-				<ArticlesPreview
-					title="Новый год в японском стиле"
-					description="Походы в храм первого января и новогодние предсказания"
-					backgroundImage="./Articles/articles_preview-2.jpg"
-				/>
-				<ArticlesPreview
-					title="Пасха в Японии"
-					description="Существует ли японский пасхальный кролик и как украсить свой дом"
-					backgroundImage="./Articles/articles_preview-3.jpg"
-				/>
-			</div>
+			<ArticleList articles={articles.articles} filteredIds={[1, 2, 3, 4, 5]} limit={4}/>
 		</div>
 	)
 }

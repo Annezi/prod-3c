@@ -108,7 +108,11 @@
 
 /* Адаптив для экранов меньше 710px */
 @media screen and (max-width: 710px) {
-	
+	.about-container {
+		display: grid;
+		grid-template-columns: repeat(1, 4fr);
+		gap: 20px;
+	}
 }
 
 @media screen and (max-width : 390px) {

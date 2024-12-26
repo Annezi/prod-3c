@@ -203,6 +203,15 @@ img {
 	text-decoration: none;
 }
 
+.custom-dots {
+	font-family: KOT-Eitai Gothic;
+	font-size: 38px;
+	color: var(--red-color);
+	text-decoration: none;
+	text-align: center;
+	line-height: normal;
+}
+
 * {
 	margin: 0;
 	padding: 0;

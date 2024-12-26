@@ -4,9 +4,45 @@
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	min-width: 300px;
+	scroll-snap-align: start; 
 }
+
 .todo-banners-wrapper {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
+	overflow-x: hidden;
+	/* Горизонтальная прокрутка */
+	scroll-snap-type: x mandatory;
+	/* Плавная прокрутка к элементам */
+	-webkit-overflow-scrolling: touch;
+	/* Плавная прокрутка на iOS */
+}
+
+/* Стили для мобильной версии */
+@media screen and (max-width: 768px) {
+	.todo-banners-wrapper {
+		flex-wrap: nowrap;
+		/* Запрет переноса элементов на новую строку */
+		padding-bottom: 10px;
+		/* Отступ для скроллбара */
+	}
+
+	.todo-banners-wrapper::-webkit-scrollbar {
+		height: 8px;
+		/* Высота скроллбара */
+	}
+
+	.todo-banners-wrapper::-webkit-scrollbar-thumb {
+		background-color: #888;
+		/* Цвет скроллбара */
+		border-radius: 4px;
+		/* Закругление скроллбара */
+	}
+
+	.todo-banners-wrapper::-webkit-scrollbar-track {
+		background-color: #f1f1f1;
+		/* Цвет фона скроллбара */
+	}
 }

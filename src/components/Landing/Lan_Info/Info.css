@@ -196,7 +196,7 @@
 
 	.banner-l-card-img img {
 		width: 88vw;
-		height: 70vh;
+		height: 320px;
 	}
 
 	.black-dots {
@@ -220,6 +220,18 @@
 	}
 }
 
-@media screen and (max-width : 390px) {
-	
+@media screen and (max-width : 610px) {
+	.lan-right-card {
+		height: 300px;
+	}
+}
+
+@media screen and (max-width : 450px) {
+	.lan-card {
+		height: 520px;
+	}
+
+	.lan-right-card {
+		height: 340px;
+	}
 }

@@ -27,7 +27,7 @@
 	width: 442px;
 }
 
-@media screen and (max-width : 390px) {
+/* @media screen and (max-width : 390px) {
 	.news-container {
 		width: 100%;
 		display: flex;
@@ -70,4 +70,4 @@
 		width: 136px;
 		height: 126px;
 	}
-}
+} */
