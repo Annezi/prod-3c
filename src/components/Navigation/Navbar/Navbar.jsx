@@ -58,28 +58,38 @@ export default function Navigation() {
 			<div className="mobile-navbar">
 				<div className="mobile-line"></div>
 				<div className="mobile-bar">
-					<div className="menu-button">
-						<img src="./Icons/WhatToDo.svg" alt="img" />
-						<div className='text-subtitle-l'>Что делать</div>
-					</div>
-					<div className="menu-button">
-						<img src="./Icons/Test.svg" alt="img" />
-						<div className='text-subtitle-l'>Тесты</div>
-					</div>
-					<div className="menu-button">
-						<img src="./Icons/Articles.svg" alt="img" />
-						<div className='text-subtitle-l'>Статьи</div>
-					</div>
-					<div className="menu-button">
-						<img src="./Icons/News.svg" alt="img" />
-						<div className='text-subtitle-l'>Новости</div>
-					</div>
-					<div className="menu-button">
-						<img src="./Icons/AboutUs.svg" alt="img" />
-						<div className='text-subtitle-l'>О нас</div>
-					</div>
+					<Link to="/where-to-go">
+						<div className="menu-button">
+							<img src="./Icons/WhatToDo.svg" alt="img" />
+							<div className='text-subtitle-l'>Что делать</div>
+						</div>
+					</Link>
+					<Link to="/study">
+						<div className="menu-button">
+							<img src="./Icons/Test.svg" alt="img" />
+							<div className='text-subtitle-l'>Тесты</div>
+						</div>
+					</Link>
+					<Link to="/articles">
+						<div className="menu-button">
+							<img src="./Icons/Articles.svg" alt="img" />
+							<div className='text-subtitle-l'>Статьи</div>
+						</div>
+					</Link>
+					<Link to="/travelling">
+						<div className="menu-button">
+							<img src="./Icons/News.svg" alt="img" />
+							<div className='text-subtitle-l'>Новости</div>
+						</div>
+					</Link>
+					<Link to="/about">
+						<div className="menu-button">
+							<img src="./Icons/AboutUs.svg" alt="img" />
+							<div className='text-subtitle-l'>О нас</div>
+						</div>
+					</Link>
 				</div>
 			</div>
-		</div>
+		</div >
 	);
 }
