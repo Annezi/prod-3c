@@ -1,7 +1,5 @@
 /* Основной контейнер для списка статей */
-.article-list {
-	padding: 20px;
-}
+.article-list {}
 
 /* Контейнер с гридом */
 .article-list-wrapper {
@@ -12,6 +10,10 @@
 	/* Расстояние между карточками */
 	grid-auto-flow: dense;
 	/* Заполнение пустот в сетке */
+}
+
+.article-list-wrapper.no-grid {
+	display: block;
 }
 
 /* Ссылка на карточку статьи */

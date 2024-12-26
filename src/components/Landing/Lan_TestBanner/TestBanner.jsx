@@ -13,12 +13,10 @@ export default function TestBanner() {
 
 	return (
 		<div className="TestBanner-container">
-			{!isTestStarted && (
-				<div className={`TestBanner-img ${isTestStarted ? "hidden" : ""}`}>
-					<img src="./Landing/test-preview.png" alt="-" />
-					<img src="./Landing/test-preview-mobile.png" alt="-" />
-				</div>
-			)}
+			<div className="TestBanner-img">
+				<img src="./Landing/test-preview.png" alt="-" />
+			</div>
+
 			<div className="TestBanner-info">
 				{!isTestStarted ? (
 					<>
@@ -36,5 +34,5 @@ export default function TestBanner() {
 				)}
 			</div>
 		</div>
-	)
+	);
 }

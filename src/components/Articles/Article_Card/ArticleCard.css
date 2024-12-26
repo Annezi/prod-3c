@@ -13,10 +13,11 @@
 /* Стили для мини-карточки */
 .article-card-mini {
 	width: 325px;
+	height: 481px;
 }
 
 .article-card-mini.article-card-with-tags {
-	height: 452px;
+	height: 481px;
 }
 
 .article-card-mini .article-cover img {
@@ -29,6 +30,7 @@
 /* Стили для большой карточки */
 .article-card-large {
 	width: 670px;
+	height: 452px;
 }
 
 .article-card-large.article-card-with-tags {

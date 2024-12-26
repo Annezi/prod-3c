@@ -1,12 +1,12 @@
 import "./ArticleCard.css";
 import Tag from "../../UI/Tags/Tag";
 
-export default function ArticleCard({ article, isLarge }) {
+export default function ArticleCard({ article, isLarge, shadow = true }) {
 	const { cover, tags, title, description } = article;
 	const hasTags = tags && tags.length > 0;
 
 	return (
-		<div className={`shadow article-card ${isLarge ? "article-card-large" : "article-card-mini"}`}>
+		<div className={`article-card ${isLarge ? "article-card-large" : "article-card-mini"} ${shadow ? "shadow" : ""}`}>
 			<div className="article-cover">
 				<img src={cover} alt={title} />
 			</div>

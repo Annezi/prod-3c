@@ -18,7 +18,7 @@ export default function Landing() {
 			<StackTags />
 			<TestBanner id="test-banner" />
 			<Maskot />
-			<Subscrib id="subscrib" />
+			<Subscrib id="subscrib"  text="Не пропусти запуск медиаcервиса <br /> о настоящей Японии!"/>
 			<Footer />
 		</div>
 	);

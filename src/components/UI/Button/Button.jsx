@@ -1,6 +1,6 @@
 import './Button.css';
 
-export default function Button({ text, theme = 'default', onClick }) {
+export default function Button({ text, theme = 'white', onClick }) {
 	const buttonClass = `button button-${theme}`;
 
 	return (
